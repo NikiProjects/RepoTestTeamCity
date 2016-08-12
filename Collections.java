@@ -15,7 +15,7 @@ public class Collections
 	ArrayList<Integer> numbers2 = new ArrayList<Integer>();
 	ArrayList<Integer> numbers3 = new ArrayList<Integer>();
 	
-	
+// Collection # 1 contains integers 1 -10 in random order. Method collection1 prints the size of this Collection. 	
 	public ArrayList collection1()
 	{
 		
@@ -43,7 +43,7 @@ public class Collections
 	return numbers;
 	}
 	
-
+// method getValues_collection1 prints the values within the collection to the console. 
 	public void getValues_collection1()
 	{
 		
@@ -56,7 +56,7 @@ public class Collections
 	}
 
 	
-	
+// Collection # 2 contians integers 6 - 15 in random order. Method collection2 prints the size of the collection. 	
 	public ArrayList collection2()
 	{
 		
@@ -85,7 +85,7 @@ public class Collections
 	return numbers2;
 	}
 	
-	
+// Method getValues_collection2() prints the values of the second collection. 	
 	public void getValues_collection2()
 	{
 		
@@ -97,7 +97,12 @@ public class Collections
 		
 	}	
 	
-	
+
+// Method collection3 combines the first 2 collections into a thrid collection. This method ensures that this collection does not 
+// contain any duplicate values. This method also sorts the elements within the collection. Additional tasks performed by this
+//  method include: 
+// - removal of the middle  entry 
+// - printing of the collection in reverse order. 
 	public ArrayList collection3()
 	{	
 		
@@ -142,7 +147,8 @@ public class Collections
 	
 	}
 	
-	
+
+// method below defines a collection that contains a key/value pair. 	
 	public void collection4()
 	{
 		

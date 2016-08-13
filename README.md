@@ -1,2 +1,2 @@
-# Implemented methods that deal with Java Collections. 
+Implemented methods that deal with Java Collections. 
 

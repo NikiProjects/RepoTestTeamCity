@@ -127,7 +127,7 @@ public class Collections
 		java.util.Collections.sort(numbers3);
 		
 		int index_removeElement = numbers3.size();
-		int middleIndexValue = (index_removeElement/2) - 1; 
+		int middleIndexValue = (index_removeElement/2); 
 		System.out.println("Index to remove at: " + middleIndexValue);
 		numbers3.remove(middleIndexValue);
 		
